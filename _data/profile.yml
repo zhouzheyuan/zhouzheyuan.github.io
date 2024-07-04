@@ -15,14 +15,15 @@ github: zhouzheyuan
 # linkedin: your-linked-in-id
 # orcid: 0000-0000-0000-0000
 
-short_bio: 
-  "I am currently a first-year Ph.D. student at Zhejiang University. Before that, I obtained my Master's degree at Fudan University in 2023. \n\n\
-  My research interests lie in Computer Vision and Machine Intelligence, particularly focusing on 3D Generation (AIGC) and 3D & Robotic Perception."
+short_bio: |-
+  I am currently a first-year Ph.D. student at Zhejiang University. Before that, I obtained my Master's degree at Fudan University in 2023.
+  
+  My research interests lie in Computer Vision and Machine Intelligence, particularly focusing on 3D Generation (AIGC) and 3D & Robotic Perception.
 
 show_portrait: true
 portrait_url: assets/images/photos/portrait.jpg
 portrait_caption: >-
-  Photoed at Zhejiang University, Jun. 2024.
+  Photoed at Zhejiang University, 2024.
 
 # education:
 # - name: Peking University
