@@ -6,14 +6,14 @@ pub:            "IEEE Robotics and Automation Letters (RA-L)"
 pub_date:       "2022"
 cover:          assets/images/covers/sgm3d.jpg
 authors:
-- Zheyuan Zhou*
-- Liang Du*
-- Xiaoqing Ye*
-- Zhikang Zou
-- Xiao Tan
-- Li Zhang
-- Xiangyang Xue
-- Jianfeng Feng
+  - Zheyuan Zhou*
+  - Liang Du*
+  - Xiaoqing Ye*
+  - Zhikang Zou
+  - Xiao Tan
+  - Li Zhang
+  - Xiangyang Xue
+  - Jianfeng Feng
 links:
   Paper: https://arxiv.org/abs/2112.01914
   Code: https://github.com/zhouzheyuan/sgm3d
