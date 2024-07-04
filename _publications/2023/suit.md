@@ -1,5 +1,5 @@
 ---
-title:          SUIT: Learning Significance-guided Information for 3D Temporal Detection
+title:          "SUIT: Learning Significance-guided Information for 3D Temporal Detection"
 date:           2023-06-22 00:01:00 +0800
 selected:       false
 pub:            "IEEE/RSJ International Conference on Intelligent Robots (IROS)"

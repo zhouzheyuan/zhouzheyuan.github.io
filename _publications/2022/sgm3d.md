@@ -1,5 +1,5 @@
 ---
-title:          SGM3D: Stereo Guided Monocular 3D Object Detection
+title:          "SGM3D: Stereo Guided Monocular 3D Object Detection"
 date:           2022-06-30 00:01:00 +0800
 selected:       true
 pub:            "IEEE Robotics and Automation Letters (RA-L)"
