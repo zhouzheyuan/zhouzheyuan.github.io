@@ -1,10 +1,10 @@
 ---
 title:          SGM3D: Stereo Guided Monocular 3D Object Detection
-date:           2022-07-18 00:01:00 +0800
+date:           2022-06-30 00:01:00 +0800
 selected:       true
 pub:            "IEEE Robotics and Automation Letters (RA-L)"
 pub_date:       "2022"
-cover:          assets/images/covers/sgm3d.jpg
+cover:          assets/images/covers/sgm3d.png
 authors:
 - Zheyuan Zhou*
 - Liang Du*
