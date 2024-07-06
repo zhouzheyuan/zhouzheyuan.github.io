@@ -1,6 +1,5 @@
 ---
 layout: project
-title : R3D-AD
 
 title: Reconstruction via Diffusion for 3D Anomaly Detection
 authors:
