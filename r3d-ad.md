@@ -3,12 +3,7 @@ layout: project
 
 title: Reconstruction via Diffusion for 3D Anomaly Detection
 authors:
-    Zheyuan Zhou*
-    Le Wang*
-    Naiyu Fang
-    Zili Wang
-    Lemiao Qiu
-    Shuyou Zhang
+    [Zheyuan Zhou](zhouzheyuan.github.io)*, Le Wang*, Naiyu Fang, Zili Wang, Lemiao Qiu, Shuyou Zhang
 affiliations:
     Zhejiang University
 paper: https://arxiv.org/
