@@ -49,6 +49,7 @@ img.lazy {
     background-position: 50% 50%;
     background-size: 50px 50px;
     min-height: 80px;
+    object-fit: contain;
 }
 
 .badge-custom {

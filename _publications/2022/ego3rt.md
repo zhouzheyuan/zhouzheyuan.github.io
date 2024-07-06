@@ -4,7 +4,7 @@ date:           2022-07-04 00:01:00 +0800
 selected:       true
 pub:            "European Conference on Computer Vision (ECCV)"
 pub_date:       "2022"
-cover:          assets/images/covers/ego3rt.jpg
+cover:          assets/images/covers/ego3rt.png
 authors:
   - Jiachen Lu
   - Zheyuan Zhou

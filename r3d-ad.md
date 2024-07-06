@@ -1,15 +1,20 @@
 ---
 layout: project
 
-title: On Computable Numbers, with an Application to the Entscheidungsproblem
+title: Reconstruction via Diffusion for 3D Anomaly Detection
 authors:
-    A. M. Turing
+    Zheyuan Zhou*
+    Le Wang*
+    Naiyu Fang
+    Zili Wang
+    Lemiao Qiu
+    Shuyou Zhang
 affiliations:
-    King's College, Cambridge
-paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
-video: https://www.youtube.com/results?search_query=turing+machine
-code: https://github.com/topics/turing-machines
-data: https://huggingface.co/docs/datasets
+    Zhejiang University
+paper: https://arxiv.org/
+# video: https://www.youtube.com/results?search_query=turing+machine
+# code: https://github.com/topics/turing-machines
+# data: https://huggingface.co/docs/datasets
 ---
 
 <!-- Using HTML to center the abstract -->
@@ -53,7 +58,7 @@ Turing's main objective in this paper was to investigate the notion of computabi
 4. He proved the existence of non-computable numbers, which cannot be computed by any Turing machine.
 5. Turing showed that the Entscheidungsproblem is undecidable, meaning there is no algorithm that can determine, for any given mathematical statement, whether it is provable or not.
 
-![Turing Machine](/static/image/Turing_machine.png)
+![Turing Machine](assets\images\covers\r3d-ad.png)
 
 *Figure 1: A representation of a Turing Machine. Source: [Wiki](https://en.wikipedia.org/wiki/Turing_machine).*
 
