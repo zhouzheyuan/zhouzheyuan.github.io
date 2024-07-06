@@ -1,9 +1,10 @@
 ---
 layout: project
+title : R3D-AD
 
 title: Reconstruction via Diffusion for 3D Anomaly Detection
 authors:
-    [Zheyuan Zhou](zhouzheyuan.github.io)*, Le Wang*, Naiyu Fang, Zili Wang, Lemiao Qiu, Shuyou Zhang
+    Zheyuan Zhou*, Le Wang*, Naiyu Fang, Zili Wang, Lemiao Qiu, Shuyou Zhang
 affiliations:
     Zhejiang University
 paper: https://arxiv.org/
