@@ -4,7 +4,7 @@ layout: project
 title: Reconstruction via Diffusion for 3D Anomaly Detection
 authors:
 - name: "Zheyuan Zhou*"
-  url: "https:zhouzheyuan.github.io"
+  url: "https://zhouzheyuan.github.io"
 - name: "Le Wang*"
 - name: "Naiyu Fang"
 - name: "Zili Wang"
