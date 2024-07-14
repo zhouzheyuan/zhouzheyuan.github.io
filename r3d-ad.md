@@ -1,7 +1,7 @@
 ---
 layout: project
 
-title: R3D-AD: Reconstruction via Diffusion for 3D Anomaly Detection
+title: "R3D-AD: Reconstruction via Diffusion for 3D Anomaly Detection"
 authors:
 - name: "Zheyuan Zhou*"
   url: "https://zhouzheyuan.github.io"
