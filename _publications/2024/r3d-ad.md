@@ -1,5 +1,5 @@
 ---
-title:          Reconstruction via Diffusion for 3D Anomaly Detection
+title:          "R3D-AD: Reconstruction via Diffusion for 3D Anomaly Detection"
 date:           2024-07-01 00:01:00 +0800
 selected:       true
 pub:            "European Conference on Computer Vision (ECCV)"
@@ -18,5 +18,6 @@ authors:
   - Lemiao Qiu
   - Shuyou Zhang
 links:
+  Paper: https://arxiv.org/abs/2407.10862
   Website: https://zhouzheyuan.github.io/r3d-ad
 ---
