@@ -67,7 +67,7 @@ Our R3D-AD outperforms all previous methods on both accuracy and efficiency by a
 
 ## Citation
 ```
-@article{zhou2024r3dad,
+@inproceedings{zhou2024r3dad,
   title={R3D-AD: Reconstruction via Diffusion for 3D Anomaly Detection},
   author={Zhou, Zheyuan and Wang, Le and Fang, Naiyu and Wang, Zili and Qiu, Lemiao and Zhang, Shuyou},
   booktitle={European Conference on Computer Vision (ECCV)},
