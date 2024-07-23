@@ -11,7 +11,7 @@ authors:
 - name: "Lemiao Qiu"
 - name: "Shuyou Zhang"
 affiliations:
-    Zhejiang University
+    Zhejiang University
 paper: https://arxiv.org/abs/2407.10862
 # video: https://www.youtube.com/results?search_query=turing+machine
 # code: https://github.com/topics/turing-machines
@@ -36,8 +36,8 @@ It step-wisely learns a strict point-level displacement behavior, which methodic
 To increase the generalization of the model, we further present a novel 3D anomaly simulation strategy named Patch-Gen to generate realistic and diverse defect shapes, which narrows the domain gap between training and testing.
 Our R3D-AD ensures a uniform spatial transformation, which allows straightforwardly generating anomaly results by distance comparison.
 Extensive experiments show that our R3D-AD outperforms previous state-of-the-art methods, achieving 73.4% Image-level AUROC on the Real3D-AD dataset and 74.9% Image-level AUROC on the Anomaly-ShapeNet dataset with exceptional efficiency.
- </div>
- </div>
+</div>
+</div>
 </div>
 
 ---
