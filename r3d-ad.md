@@ -4,7 +4,7 @@ layout: project
 title: "R3D-AD: Reconstruction via Diffusion for 3D Anomaly Detection"
 authors:
 - name: "Zheyuan Zhou*"
-  url: "https://zhouzheyuan.github.io"
+  url: "https://zhouzheyuan.github.io"
 - name: "Le Wang*"
 - name: "Naiyu Fang"
 - name: "Zili Wang"
@@ -68,9 +68,9 @@ Our R3D-AD outperforms all previous methods in both accuracy and efficiency by a
 ## Citation
 ```
 @inproceedings{zhou2024r3dad,
- title={R3D-AD: Reconstruction via Diffusion for 3D Anomaly Detection},
- author={Zhou, Zheyuan and Wang, Le and Fang, Naiyu and Wang, Zili and Qiu, Lemiao and Zhang, Shuyou},
- booktitle={European Conference on Computer Vision (ECCV)},
- year={2024}
+  title={R3D-AD: Reconstruction via Diffusion for 3D Anomaly Detection},
+  author={Zhou, Zheyuan and Wang, Le and Fang, Naiyu and Wang, Zili and Qiu, Lemiao and Zhang, Shuyou},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year={2024}
 }
 ```
