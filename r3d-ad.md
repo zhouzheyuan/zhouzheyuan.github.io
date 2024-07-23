@@ -4,14 +4,14 @@ layout: project
 title: "R3D-AD: Reconstruction via Diffusion for 3D Anomaly Detection"
 authors:
 - name: "Zheyuan Zhou*"
-  url: "https://zhouzheyuan.github.io"
+  url: "https://zhouzheyuan.github.io"
 - name: "Le Wang*"
 - name: "Naiyu Fang"
 - name: "Zili Wang"
 - name: "Lemiao Qiu"
 - name: "Shuyou Zhang"
 affiliations:
-    Zhejiang University
+    Zhejiang University
 paper: https://arxiv.org/abs/2407.10862
 # video: https://www.youtube.com/results?search_query=turing+machine
 # code: https://github.com/topics/turing-machines
@@ -22,9 +22,9 @@ paper: https://arxiv.org/abs/2407.10862
 
 <!-- Using HTML to center the abstract -->
 <div class="columns is-centered has-text-centered">
-    <div class="column is-four-fifths">
-        <h2>Abstract</h2>
-        <div class="content has-text-justified">
+<div class="column is-four-fifths">
+<h2>Abstract</h2>
+<div class="content has-text-justified">
 3D anomaly detection plays a crucial role in monitoring parts for localized inherent defects in precision manufacturing.
 Embedding-based and reconstruction-based approaches are among the most popular and successful methods.
 However, there are two major challenges to the practical application of the current approaches: 
@@ -35,9 +35,9 @@ Our approach capitalizes on the data distribution conversion of the diffusion pr
 It step-wisely learns a strict point-level displacement behavior, which methodically corrects the aberrant points. 
 To increase the generalization of the model, we further present a novel 3D anomaly simulation strategy named Patch-Gen to generate realistic and diverse defect shapes, which narrows the domain gap between training and testing.
 Our R3D-AD ensures a uniform spatial transformation, which allows straightforwardly generating anomaly results by distance comparison.
-Extensive experiments show that our R3D-AD outperforms previous state-of-the-art methods, achieving 73.4% Image-level AUROC on the Real3D-AD dataset and 74.9% Image-level AUROC on the Anomaly-ShapeNet dataset with an exceptional efficiency.
-        </div>
-    </div>
+Extensive experiments show that our R3D-AD outperforms previous state-of-the-art methods, achieving 73.4% Image-level AUROC on the Real3D-AD dataset and 74.9% Image-level AUROC on the Anomaly-ShapeNet dataset with exceptional efficiency.
+ </div>
+ </div>
 </div>
 
 ---
@@ -47,9 +47,9 @@ Extensive experiments show that our R3D-AD outperforms previous state-of-the-art
 ## Model Overview
 ![archi](assets\images\covers\r3d-ad.png)
 
-Overall architecture of **R3D-AD** for shape reconstruction and anomaly detection of point cloud objects.
+The overall architecture of **R3D-AD** for shape reconstruction and anomaly detection of point cloud objects.
 
-## 3D Anomlous Simulation
+## 3D Anomaly Simulation
 ![patch](assets\images\etc\r3d-ad_patch.png)
 
 Illustration of **Patch-Gen**, the 3D anomaly simulation strategy. 
@@ -60,17 +60,17 @@ The selected points are then transformed into irregular defects according to the
 ## Efficiency
 ![cost](assets\images\etc\r3d-ad_cost.png)
 
-Memory and time cost during inference on Real3D-AD dataset. 
+Memory and time cost during inference on the Real3D-AD dataset. 
 (a) Memory usage comparison between different models. 
 (b) 3D anomaly detection performance vs. frames per second on an NVIDIA RTX 3090 GPU. 
-Our R3D-AD outperforms all previous methods on both accuracy and efficiency by a significant margin.
+Our R3D-AD outperforms all previous methods in both accuracy and efficiency by a significant margin.
 
 ## Citation
 ```
 @inproceedings{zhou2024r3dad,
-  title={R3D-AD: Reconstruction via Diffusion for 3D Anomaly Detection},
-  author={Zhou, Zheyuan and Wang, Le and Fang, Naiyu and Wang, Zili and Qiu, Lemiao and Zhang, Shuyou},
-  booktitle={European Conference on Computer Vision (ECCV)},
-  year={2024}
+ title={R3D-AD: Reconstruction via Diffusion for 3D Anomaly Detection},
+ author={Zhou, Zheyuan and Wang, Le and Fang, Naiyu and Wang, Zili and Qiu, Lemiao and Zhang, Shuyou},
+ booktitle={European Conference on Computer Vision (ECCV)},
+ year={2024}
 }
 ```
