@@ -21,16 +21,9 @@ body {
   font-variant: small-caps;
 }
 
-
 .teaser .hero-body {
-  padding-top: 0;
   padding-bottom: 0;
 }
-
-.teaser {
-  font-family: 'Google Sans', sans-serif;
-}
-
 
 .publication-title {
 }
@@ -156,6 +149,7 @@ body {
 #interpolation-image-wrapper {
   width: 100%;
 }
+
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
