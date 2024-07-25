@@ -24,24 +24,32 @@ paper: https://arxiv.org/abs/2407.10862
       <div id="results-carousel" class="carousel results-carousel">
         
         <div class="item item-bag">
-          <div style="display: flex; justify-content: space-between;">
-            <video poster="" id="bag_defect" autoplay controls muted loop playsinline height="100%" style="flex: 1;">
-              <source src="assets\projects\r3d-ad\bag_defect.mp4" type="video/mp4">
-            </video>
-            <video poster="" id="bag_gt" autoplay controls muted loop playsinline height="100%" style="flex: 1;">
-              <source src="assets\projects\r3d-ad\bag_gt.mp4" type="video/mp4">
-            </video>
+          <div class="columns is-multiline">
+            <div class="column is-half">
+              <video poster="" id="bag_defect" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
+                <source src="assets\projects\r3d-ad\bag_defect.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="column is-half">
+              <video poster="" id="bag_gt" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
+                <source src="assets\projects\r3d-ad\bag_gt.mp4" type="video/mp4">
+              </video>
+            </div>
           </div>
         </div>
 
         <div class="item item-vase">
-          <div style="display: flex; justify-content: space-between;">
-            <video poster="" id="vase_defect" autoplay controls muted loop playsinline height="100%" style="flex: 1;">
-              <source src="assets\projects\r3d-ad\vase_defect.mp4" type="video/mp4">
-            </video>
-            <video poster="" id="vase_gt" autoplay controls muted loop playsinline height="100%" style="flex: 1;">
-              <source src="assets\projects\r3d-ad\vase_gt.mp4" type="video/mp4">
-            </video>
+          <div class="columns is-multiline">
+            <div class="column is-half">
+              <video poster="" id="vase_defect" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
+                <source src="assets\projects\r3d-ad\vase_defect.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="column is-half">
+              <video poster="" id="vase_gt" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
+                <source src="assets\projects\r3d-ad\vase_gt.mp4" type="video/mp4">
+              </video>
+            </div>
           </div>
         </div>
         
