@@ -1,8 +1,8 @@
 $(document).ready(function() {
   // Initialize the carousel
   var options = {
-    slidesToScroll: 2,
-    slidesToShow: 2,
+    slidesToScroll: 1,
+    slidesToShow: 1,
     loop: true,
     infinite: true,
     autoplay: false,

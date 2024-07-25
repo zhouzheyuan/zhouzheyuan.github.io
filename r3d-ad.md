@@ -10,8 +10,7 @@ authors:
 - name: "Zili Wang"
 - name: "Lemiao Qiu"
 - name: "Shuyou Zhang"
-affiliations:
-    Zhejiang University
+affiliations: "Zhejiang University"
 paper: https://arxiv.org/abs/2407.10862
 # video: https://www.youtube.com/results?search_query=turing+machine
 # code: https://github.com/topics/turing-machines
@@ -58,6 +57,7 @@ paper: https://arxiv.org/abs/2407.10862
   </div>
 </section>
 
+---
 
 <!-- Using HTML to center the abstract -->
 <div class="columns is-centered has-text-centered">
