@@ -1,19 +1,22 @@
 $(document).ready(function() {
   // Initialize the carousel
   var options = {
-      slidesToScroll: 1,
-      slidesToShow: 1,
-      loop: true,
-      infinite: true, 
-      autoplay: false,
-      autoplaySpeed: 3000,
+    slidesToScroll: 2,
+    slidesToShow: 2,
+    loop: true,
+    infinite: true,
+    autoplay: false,
+    autoplaySpeed: 3000,
   };
 
-  // Initialize the carousel
-  var carousel = bulmaCarousel.attach('.results-carousel', options);
+  // Initialize all div with carousel class
+  var carousels = bulmaCarousel.attach('.carousel', options);
 
-  // Add listener to before:show event
-  carousel.on('before:show', state => {
+  // Loop on each carousel initialized
+  for(var i = 0; i < carousels.length; i++) {
+    // Add listener to  event
+    carousels[i].on('before:show', state => {
       console.log(state);
-  });
+    });
+  }
 });
