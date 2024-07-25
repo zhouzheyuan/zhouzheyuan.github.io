@@ -5,7 +5,7 @@ $(document).ready(function() {
     slidesToShow: 1,
     loop: true,
     infinite: true,
-    autoplay: false,
+    autoplay: false, // Set to false if you want to control the play manually
     autoplaySpeed: 3000,
   };
 
@@ -14,26 +14,16 @@ $(document).ready(function() {
 
   // Loop on each carousel initialized
   for (var i = 0; i < carousels.length; i++) {
-    // Add listeners to events
-    carousels[i].on('before:show', function(state) {
-      // Pause all videos when the carousel is about to switch
-      pauseVideos(state.currentSlide);
-    });
-
+    // Add listener to after:show event
     carousels[i].on('after:show', function(state) {
-      // Play the videos in the current slide after the carousel has finished switching
-      playVideos(state.currentSlide);
+      // Reset and play the videos in the current slide after the carousel has finished switching
+      resetAndPlayVideos(state.currentSlide);
     });
   }
 
-  function pauseVideos(slide) {
+  function resetAndPlayVideos(slide) {
     $(slide).find('video').each(function() {
-      this.pause();
-    });
-  }
-
-  function playVideos(slide) {
-    $(slide).find('video').each(function() {
+      this.currentTime = 0;
       this.play();
     });
   }
