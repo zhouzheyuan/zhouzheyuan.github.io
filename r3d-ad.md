@@ -22,21 +22,6 @@ paper: https://arxiv.org/abs/2407.10862
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
 
-        <div class="item item-seahorse">
-          <div class="columns is-multiline">
-            <div class="column is-half">
-              <video poster="" id="seahorse_defect" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
-                <source src="assets\projects\r3d-ad\seahorse_defect.mp4" type="video/mp4">
-              </video>
-            </div>
-            <div class="column is-half">
-              <video poster="" id="seahorse_gt" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
-                <source src="assets\projects\r3d-ad\seahorse_gt.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
-        </div>
-
         <div class="item item-starfish">
           <div class="columns is-multiline">
             <div class="column is-half">
@@ -47,6 +32,21 @@ paper: https://arxiv.org/abs/2407.10862
             <div class="column is-half">
               <video poster="" id="starfish_gt" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
                 <source src="assets\projects\r3d-ad\starfish_gt.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+
+        <div class="item item-seahorse">
+          <div class="columns is-multiline">
+            <div class="column is-half">
+              <video poster="" id="seahorse_defect" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
+                <source src="assets\projects\r3d-ad\seahorse_defect.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="column is-half">
+              <video poster="" id="seahorse_gt" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
+                <source src="assets\projects\r3d-ad\seahorse_gt.mp4" type="video/mp4">
               </video>
             </div>
           </div>
