@@ -2,8 +2,8 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-.hero .title-hero {
-  padding-bottom: 0rem;
+.hero.title-hero {
+  padding-bottom: 1.5rem;
 }
 
 .footer {

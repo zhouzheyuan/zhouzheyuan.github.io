@@ -21,22 +21,12 @@ $(document).ready(function() {
     });
   }
 
-  // Ensure all videos are paused and set to the beginning
-  function resetAllVideos() {
-    $('.sync-video').each(function() {
-      this.currentTime = 0;
-      this.pause();
-    });
-  }
-
   // Reset and play the videos in the current slide
   function resetAndPlayVideos(slide) {
-    $(slide).find('.sync-video').each(function() {
-      this.currentTime = 0; // Reset video to start
-      this.play(); // Play the video
+    $(slide).find('video').each(function() {
+      this.currentTime = 0;
+      this.play();
     });
   }
 
-  // Call resetAllVideos to ensure all videos are paused and at the beginning
-  resetAllVideos();
 });

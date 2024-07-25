@@ -25,12 +25,12 @@ paper: https://arxiv.org/abs/2407.10862
         <div class="item item-starfish">
           <div class="columns is-multiline">
             <div class="column is-half">
-              <video class="sync-video" poster="" id="starfish_defect" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
+              <video poster="" id="starfish_defect" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
                 <source src="assets/projects/r3d-ad/starfish_defect.mp4" type="video/mp4">
               </video>
             </div>
             <div class="column is-half">
-              <video class="sync-video" poster="" id="starfish_gt" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
+              <video poster="" id="starfish_gt" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
                 <source src="assets/projects/r3d-ad/starfish_gt.mp4" type="video/mp4">
               </video>
             </div>
@@ -40,12 +40,12 @@ paper: https://arxiv.org/abs/2407.10862
         <div class="item item-seahorse">
           <div class="columns is-multiline">
             <div class="column is-half">
-              <video class="sync-video" poster="" id="seahorse_defect" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
+              <video poster="" id="seahorse_defect" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
                 <source src="assets/projects/r3d-ad/seahorse_defect.mp4" type="video/mp4">
               </video>
             </div>
             <div class="column is-half">
-              <video class="sync-video" poster="" id="seahorse_gt" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
+              <video poster="" id="seahorse_gt" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
                 <source src="assets/projects/r3d-ad/seahorse_gt.mp4" type="video/mp4">
               </video>
             </div>
@@ -55,12 +55,12 @@ paper: https://arxiv.org/abs/2407.10862
         <div class="item item-bag">
           <div class="columns is-multiline">
             <div class="column is-half">
-              <video class="sync-video" poster="" id="bag_defect" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
+              <video poster="" id="bag_defect" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
                 <source src="assets/projects/r3d-ad/bag_defect.mp4" type="video/mp4">
               </video>
             </div>
             <div class="column is-half">
-              <video class="sync-video" poster="" id="bag_gt" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
+              <video poster="" id="bag_gt" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
                 <source src="assets/projects/r3d-ad/bag_gt.mp4" type="video/mp4">
               </video>
             </div>
@@ -70,12 +70,12 @@ paper: https://arxiv.org/abs/2407.10862
         <div class="item item-vase">
           <div class="columns is-multiline">
             <div class="column is-half">
-              <video class="sync-video" poster="" id="vase_defect" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
+              <video poster="" id="vase_defect" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
                 <source src="assets/projects/r3d-ad/vase_defect.mp4" type="video/mp4">
               </video>
             </div>
             <div class="column is-half">
-              <video class="sync-video" poster="" id="vase_gt" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
+              <video poster="" id="vase_gt" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
                 <source src="assets/projects/r3d-ad/vase_gt.mp4" type="video/mp4">
               </video>
             </div>
