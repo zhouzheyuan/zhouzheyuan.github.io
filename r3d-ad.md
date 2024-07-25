@@ -23,8 +23,8 @@ paper: https://arxiv.org/abs/2407.10862
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
         
-        <div class="item1">
-          <div style="display: flex;">
+        <div class="item item-bag">
+          <div style="display: flex; justify-content: space-between;">
             <video poster="" id="bag_defect" autoplay controls muted loop playsinline height="100%" style="flex: 1;">
               <source src="assets\projects\r3d-ad\bag_defect.mp4" type="video/mp4">
             </video>
@@ -34,8 +34,8 @@ paper: https://arxiv.org/abs/2407.10862
           </div>
         </div>
 
-        <div class="item2">
-          <div style="display: flex;">
+        <div class="item item-vase">
+          <div style="display: flex; justify-content: space-between;">
             <video poster="" id="vase_defect" autoplay controls muted loop playsinline height="100%" style="flex: 1;">
               <source src="assets\projects\r3d-ad\vase_defect.mp4" type="video/mp4">
             </video>
@@ -44,7 +44,7 @@ paper: https://arxiv.org/abs/2407.10862
             </video>
           </div>
         </div>
-
+        
       </div>
     </div>
   </div>
