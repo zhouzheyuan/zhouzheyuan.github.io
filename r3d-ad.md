@@ -18,7 +18,38 @@ paper: https://arxiv.org/abs/2407.10862
 # data: https://huggingface.co/docs/datasets
 ---
 
-![vis](assets\images\etc\r3d-ad_vis.jpg)
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        
+        <div class="item1">
+          <div style="display: flex;">
+            <video poster="" id="bag_defect" autoplay controls muted loop playsinline height="100%" style="flex: 1;">
+              <source src="assets\projects\r3d-ad\bag_defect.mp4" type="video/mp4">
+            </video>
+            <video poster="" id="bag_gt" autoplay controls muted loop playsinline height="100%" style="flex: 1;">
+              <source src="assets\projects\r3d-ad\bag_gt.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+        <div class="item2">
+          <div style="display: flex;">
+            <video poster="" id="vase_defect" autoplay controls muted loop playsinline height="100%" style="flex: 1;">
+              <source src="assets\projects\r3d-ad\vase_defect.mp4" type="video/mp4">
+            </video>
+            <video poster="" id="vase_gt" autoplay controls muted loop playsinline height="100%" style="flex: 1;">
+              <source src="assets\projects\r3d-ad\vase_gt.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- Using HTML to center the abstract -->
 <div class="columns is-centered has-text-centered">
@@ -50,7 +81,7 @@ Extensive experiments show that our R3D-AD outperforms previous state-of-the-art
 The overall architecture of **R3D-AD** for shape reconstruction and anomaly detection of point cloud objects.
 
 ## 3D Anomaly Simulation
-![patch](assets\images\etc\r3d-ad_patch.png)
+![patch](assets\projects\r3d-ad\patch.png)
 
 Illustration of **Patch-Gen**, the 3D anomaly simulation strategy. 
 The input normal point cloud is first randomly rotated. 
@@ -58,12 +89,15 @@ On the surface of the normalized cube, we randomly select viewpoints to find the
 The selected points are then transformed into irregular defects according to the specific deformation solution.
 
 ## Efficiency
-![cost](assets\images\etc\r3d-ad_cost.png)
+![cost](assets\projects\r3d-ad\cost.png)
 
 Memory and time cost during inference on the Real3D-AD dataset. 
 (a) Memory usage comparison between different models. 
 (b) 3D anomaly detection performance vs. frames per second on an NVIDIA RTX 3090 GPU. 
 Our R3D-AD outperforms all previous methods in both accuracy and efficiency by a significant margin.
+
+## Visualization
+![vis](assets\projects\r3d-ad\vis.jpg)
 
 ## Citation
 ```
