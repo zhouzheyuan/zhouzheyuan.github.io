@@ -21,14 +21,6 @@ $(document).ready(function() {
     });
   }
 
-  // Ensure all videos are paused and set to the beginning
-  function resetAllVideos() {
-    $('.carousel video').each(function() {
-      this.currentTime = 0;
-      this.pause();
-    });
-  }
-
   // Reset and play the videos in the current slide
   function resetAndPlayVideos(slide) {
     $(slide).find('video').each(function() {
@@ -37,6 +29,4 @@ $(document).ready(function() {
     });
   }
 
-  // Call resetAllVideos to ensure all videos are paused and at the beginning
-  resetAllVideos();
 });
