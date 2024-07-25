@@ -2,10 +2,6 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-.hero.title-hero {
-  padding-bottom: 1.5rem;
-}
-
 .footer {
   background-color: #fafafa;
   padding: 1rem;
@@ -28,7 +24,7 @@ body {
 
 .teaser .hero-body {
   padding-top: 0;
-  padding-bottom: 3rem;
+  padding-bottom: 1.5rem;
 }
 
 .teaser {

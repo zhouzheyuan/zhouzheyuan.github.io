@@ -17,7 +17,7 @@ paper: https://arxiv.org/abs/2407.10862
 # data: https://huggingface.co/docs/datasets
 ---
 
-<section class="hero is-light is-small">
+<section class="hero teaser">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
