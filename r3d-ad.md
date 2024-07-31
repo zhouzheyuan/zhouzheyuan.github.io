@@ -11,6 +11,7 @@ authors:
 - name: "Lemiao Qiu"
 - name: "Shuyou Zhang"
 affiliations: "Zhejiang University"
+hits: r3d-ad
 paper: https://arxiv.org/abs/2407.10862
 # video: https://www.youtube.com/results?search_query=turing+machine
 # code: https://github.com/topics/turing-machines
