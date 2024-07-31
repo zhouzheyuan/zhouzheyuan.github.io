@@ -17,15 +17,29 @@ $(document).ready(function() {
     // Add listener to after:show event
     carousels[i].on('after:show', function(state) {
       // Reset and play the videos in the current slide after the carousel has finished switching
-      resetAndPlayVideos(state.currentSlide);
+      resetAndPlayVideos(this, state.currentSlide);
     });
   }
 
   // Reset and play the videos in the current slide
-  function resetAndPlayVideos(slide) {
+  function resetAndPlayVideos(carouselInstance, slide) {
     $(slide).find('video').each(function() {
-      this.currentTime = 0;
-      this.play();
+      var videoElement = this;
+      // Check if the video is ready to be played
+      if (videoElement.readyState >= 4) { // 4 is the HAVE_ENOUGH_DATA state
+        videoElement.currentTime = 0;
+        videoElement.play().catch(function(error) {
+          console.error('Error playing video:', error);
+        });
+      } else {
+        // Listen for the canplay event to ensure the video is ready before playing
+        videoElement.addEventListener('canplay', function() {
+          videoElement.currentTime = 0;
+          videoElement.play().catch(function(error) {
+            console.error('Error playing video:', error);
+          });
+        }, { once: true });
+      }
     });
   }
 
