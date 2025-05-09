@@ -6,15 +6,18 @@ authors:
 - name: "Zheyuan Zhou*"
   url: "https://zhouzheyuan.github.io"
 - name: "Le Wang*"
+  url: "https://scholar.google.com/citations?hl=zh-CN&user=ZZ0iGAUAAAAJ"
 - name: "Naiyu Fang"
+  url: "https://nerdfny.github.io/"
 - name: "Zili Wang"
+  url: "https://scholar.google.com/citations?user=75zeHdAAAAAJ&hl=en"
 - name: "Lemiao Qiu"
 - name: "Shuyou Zhang"
 affiliations: "Zhejiang University"
 hits: r3d-ad
 paper: https://arxiv.org/abs/2407.10862
 # video: https://www.youtube.com/results?search_query=turing+machine
-# code: https://github.com/topics/turing-machines
+code: https://github.com/zhouzheyuan/r3d-ad
 # data: https://huggingface.co/docs/datasets
 ---
 

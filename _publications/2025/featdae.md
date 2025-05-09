@@ -1,24 +1,24 @@
 ---
-title:          "R3D-AD: Reconstruction via Diffusion for 3D Anomaly Detection"
-date:           2024-07-01 00:01:00 +0800
-selected:       true
-pub:            "European Conference on Computer Vision (ECCV)"
+title:          "FeatDAE: Introducing Features with Denoising Autoencoder for Anomaly Detection"
+date:           2025-04-01 00:01:00 +0800
+selected:       false
+pub:            "IEEE Transactions on Instrumentation and Measurement (TIM)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
-pub_date:       "2024"
+pub_date:       "2025"
 # abstract: >-
 #   Photo by Pineapple Supply Co. on Unsplash. Massa ultricies mi quis hendrerit dolor magna. Arcu non odio euismod lacinia at quis risus sed. Et tortor at risus viverra. Enim neque volutpat ac tincidunt. Dictum varius duis at consectetur lorem donec.
-cover:          assets/images/covers/r3d-ad.png
+cover:          assets/images/covers/featdae.png
 authors:
-  - Zheyuan Zhou*
-  - Le Wang*
-  - Naiyu Fang
+  - Zheyuan Zhou
+  - Jichun Wang
+  - Zian Yu
   - Zili Wang
+  - Xiaojian Liu
   - Lemiao Qiu
   - Shuyou Zhang
 links:
-  Paper: https://arxiv.org/abs/2407.10862
-  Code: https://github.com/zhouzheyuan/r3d-ad
-  Website: https://zhouzheyuan.github.io/r3d-ad
+  Paper: https://ieeexplore.ieee.org/document/10980075
+  # Code: https://github.com/zhouzheyuan/featdae
 ---
