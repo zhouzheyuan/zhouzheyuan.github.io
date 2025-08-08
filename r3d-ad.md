@@ -12,7 +12,9 @@ authors:
 - name: "Zili Wang"
   url: "https://scholar.google.com/citations?user=75zeHdAAAAAJ&hl=en"
 - name: "Lemiao Qiu"
+  url: "https://orcid.org/0000-0001-9358-0099"
 - name: "Shuyou Zhang"
+  url: "https://www.researchgate.net/profile/Shuyou-Zhang?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJzY2llbnRpZmljQ29udHJpYnV0aW9ucyIsInByZXZpb3VzUGFnZSI6bnVsbH19"
 affiliations: "Zhejiang University"
 hits: r3d-ad
 paper: https://arxiv.org/abs/2407.10862
