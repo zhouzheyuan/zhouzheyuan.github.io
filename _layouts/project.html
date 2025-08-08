@@ -55,10 +55,34 @@
                 <span class="author-block">
                   {% if author.url %}
                     <a href="{{ author.url }}">
-                      {{ author.name | replace: /\^(.*?)\^/, '<sup>$1</sup>' }}
+                      {% assign text = author.name %}
+                      {% while text contains '^' %}
+                        {% assign first = text | split: '^' | first %}
+                        {% assign remaining = text | split: '^' | shift | join: '^' %}
+                        {% if remaining contains '^' %}
+                          {% assign content = remaining | split: '^' | first %}
+                          {% assign text = remaining | split: '^' | shift | join: '^' %}
+                          {{ first }}<sup>{{ content }}</sup>
+                        {% else %}
+                          {{ first }}{{ remaining }}
+                          {% assign text = '' %}
+                        {% endif %}
+                      {% endwhile %}
                     </a>
                   {% else %}
-                    {{ author.name | replace: /\^(.*?)\^/, '<sup>$1</sup>' }}
+                    {% assign text = author.name %}
+                    {% while text contains '^' %}
+                      {% assign first = text | split: '^' | first %}
+                      {% assign remaining = text | split: '^' | shift | join: '^' %}
+                      {% if remaining contains '^' %}
+                        {% assign content = remaining | split: '^' | first %}
+                        {% assign text = remaining | split: '^' | shift | join: '^' %}
+                        {{ first }}<sup>{{ content }}</sup>
+                      {% else %}
+                        {{ first }}{{ remaining }}
+                        {% assign text = '' %}
+                      {% endif %}
+                    {% endwhile %}
                   {% endif %}
                 </span>{% if forloop.last == false %}, {% endif %}
               {% endfor %}
@@ -69,7 +93,19 @@
             <div class="is-size-5 publication-authors">
               {% for affil in page.affiliations %}
                 <span class="author-block">
-                  {{ affil | replace: /\^(.*?)\^/, '<sup>$1</sup>' }}
+                  {% assign text = affil %}
+                  {% while text contains '^' %}
+                    {% assign first = text | split: '^' | first %}
+                    {% assign remaining = text | split: '^' | shift | join: '^' %}
+                    {% if remaining contains '^' %}
+                      {% assign content = remaining | split: '^' | first %}
+                      {% assign text = remaining | split: '^' | shift | join: '^' %}
+                      {{ first }}<sup>{{ content }}</sup>
+                    {% else %}
+                      {{ first }}{{ remaining }}
+                      {% assign text = '' %}
+                    {% endif %}
+                  {% endwhile %}
                 </span>{% if forloop.last == false %}, {% endif %}
               {% endfor %}
             </div>
