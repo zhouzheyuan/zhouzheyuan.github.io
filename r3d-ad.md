@@ -3,9 +3,9 @@ layout: project
 
 title: "R3D-AD: Reconstruction via Diffusion for 3D Anomaly Detection"
 authors:
-- name: "Zheyuan Zhou*"
+- name: "Zheyuan Zhou^*^"
   url: "https://zhouzheyuan.github.io"
-- name: "Le Wang*"
+- name: "Le Wang^*^"
   url: "https://scholar.google.com/citations?hl=zh-CN&user=ZZ0iGAUAAAAJ"
 - name: "Naiyu Fang"
   url: "https://nerdfny.github.io/"
@@ -16,7 +16,6 @@ authors:
 - name: "Shuyou Zhang"
   url: "https://www.researchgate.net/profile/Shuyou-Zhang?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJzY2llbnRpZmljQ29udHJpYnV0aW9ucyIsInByZXZpb3VzUGFnZSI6bnVsbH19"
 affiliations: "Zhejiang University"
-hits: r3d-ad
 paper: https://arxiv.org/abs/2407.10862
 # video: https://www.youtube.com/results?search_query=turing+machine
 code: https://github.com/zhouzheyuan/r3d-ad
