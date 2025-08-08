@@ -50,63 +50,23 @@
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">{{ page.title }}</h1>
           {% if page.authors %}
-            <div class="is-size-5 publication-authors">
-              {% for author in page.authors %}
-                <span class="author-block">
-                  {% if author.url %}
-                    <a href="{{ author.url }}">
-                      {% assign text = author.name %}
-                      {% while text contains '^' %}
-                        {% assign first = text | split: '^' | first %}
-                        {% assign remaining = text | split: '^' | shift | join: '^' %}
-                        {% if remaining contains '^' %}
-                          {% assign content = remaining | split: '^' | first %}
-                          {% assign text = remaining | split: '^' | shift | join: '^' %}
-                          {{ first }}<sup>{{ content }}</sup>
-                        {% else %}
-                          {{ first }}{{ remaining }}
-                          {% assign text = '' %}
-                        {% endif %}
-                      {% endwhile %}
-                    </a>
-                  {% else %}
-                    {% assign text = author.name %}
-                    {% while text contains '^' %}
-                      {% assign first = text | split: '^' | first %}
-                      {% assign remaining = text | split: '^' | shift | join: '^' %}
-                      {% if remaining contains '^' %}
-                        {% assign content = remaining | split: '^' | first %}
-                        {% assign text = remaining | split: '^' | shift | join: '^' %}
-                        {{ first }}<sup>{{ content }}</sup>
-                      {% else %}
-                        {{ first }}{{ remaining }}
-                        {% assign text = '' %}
-                      {% endif %}
-                    {% endwhile %}
-                  {% endif %}
-                </span>{% if forloop.last == false %}, {% endif %}
-              {% endfor %}
-            </div>
-          {% endif %}
+          <div class="is-size-5 publication-authors">
+            {% for author in page.authors %}
+              <span class="author-block">
+                {% if author.url %}
+                  <a href="{{ author.url }}">{{ author.name }}</a>
+                {% else %}
+                  {{ author.name }}
+                {% endif %}
+              </span>{% if forloop.last == false %}, {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
 
           {% if page.affiliations %}
             <div class="is-size-5 publication-authors">
               {% for affil in page.affiliations %}
-                <span class="author-block">
-                  {% assign text = affil %}
-                  {% while text contains '^' %}
-                    {% assign first = text | split: '^' | first %}
-                    {% assign remaining = text | split: '^' | shift | join: '^' %}
-                    {% if remaining contains '^' %}
-                      {% assign content = remaining | split: '^' | first %}
-                      {% assign text = remaining | split: '^' | shift | join: '^' %}
-                      {{ first }}<sup>{{ content }}</sup>
-                    {% else %}
-                      {{ first }}{{ remaining }}
-                      {% assign text = '' %}
-                    {% endif %}
-                  {% endwhile %}
-                </span>{% if forloop.last == false %}, {% endif %}
+                <span class="author-block">{{ affil }}</span>{% if forloop.last == false %}, {% endif %}
               {% endfor %}
             </div>
           {% endif %}
