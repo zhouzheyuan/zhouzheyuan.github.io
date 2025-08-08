@@ -3,24 +3,24 @@ layout: project
 
 title: "CAD-Judge: Toward Efficient Morphological Grading and Verification for Text-to-CAD Generation"
 authors:
-- name: "Zheyuan Zhou^1*^"
+- name: "Zheyuan Zhou<sup>1*</sup>"
   url: "https://zhouzheyuan.github.io"
-- name: "Jiayi Han^2*^"
+- name: "Jiayi Han<sup>2*</sup>"
   url: "https://www.researchgate.net/profile/Han-Jiayi-2"
-- name: "Liang Du^3^"
+- name: "Liang Du<sup>3</sup>"
   url: "https://scholar.google.com/citations?user=oxNIbCUAAAAJ&hl=zh-TW"
-- name: "Naiyu Fang^4^"
+- name: "Naiyu Fang<sup>4</sup>"
   url: "https://nerdfny.github.io/"
-- name: "Lemiao Qiu^1^"
+- name: "Lemiao Qiu<sup>1</sup>"
   url: "https://orcid.org/0000-0001-9358-0099"
-- name: "Shuyou Zhang^1^"
+- name: "Shuyou Zhang<sup>1</sup>"
   url: "https://www.researchgate.net/profile/Shuyou-Zhang?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJzY2llbnRpZmljQ29udHJpYnV0aW9ucyIsInByZXZpb3VzUGFnZSI6bnVsbH19"
   
 affiliations:
-  - "^1^ Zhejiang University"
-  - "^2^ Inspur Group Co. Ltd."
-  - "^3^ Tencent Inc."
-  - "^4^ Nanyang Technological University"
+  - "<sup>1</sup> Zhejiang University"
+  - "<sup>2</sup> Inspur Group Co. Ltd."
+  - "<sup>3</sup> Tencent Inc."
+  - "<sup>4</sup> Nanyang Technological University"
 paper: https://www.arxiv.org/pdf/2508.04002
 # code: https://github.com/zhouzheyuan/cad-judge
 ---

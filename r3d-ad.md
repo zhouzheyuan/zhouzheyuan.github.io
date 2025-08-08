@@ -3,9 +3,9 @@ layout: project
 
 title: "R3D-AD: Reconstruction via Diffusion for 3D Anomaly Detection"
 authors:
-- name: "Zheyuan Zhou^*^"
+- name: "Zheyuan Zhou<sup>*</sup>"
   url: "https://zhouzheyuan.github.io"
-- name: "Le Wang^*^"
+- name: "Le Wang<sup>*</sup>"
   url: "https://scholar.google.com/citations?hl=zh-CN&user=ZZ0iGAUAAAAJ"
 - name: "Naiyu Fang"
   url: "https://nerdfny.github.io/"
