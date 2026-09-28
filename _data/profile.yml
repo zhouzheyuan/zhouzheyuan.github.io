@@ -32,14 +32,18 @@ portrait_caption: >-
 #   date: Sep. 2017 - Jul. 2021
 
 experience:
+- name: Tencent
+  logo: assets/images/badges/Tencent.png
+  position: Research Intern
+  date: 2025 - Present
 - name: Huawei Noah's Ark Lab
   logo: assets/images/badges/Huawei.png
   position: Research Intern
-  date: Dec. 2021 - Dec. 2022
-- name: Baidu Research
+  date: 2022
+- name: Baidu
   logo: assets/images/badges/Baidu.png
   position: Research Intern
-  date: Mar. 2021 - Nov. 2021
+  date: 2021
 
 
 awards:

@@ -2,6 +2,7 @@
 layout: project
 
 title: "CAD-Judge: Toward Efficient Morphological Grading and Verification for Text-to-CAD Generation"
+subtitle: "ICASSP 2026 Oral"
 authors:
 - name: "Zheyuan Zhou<sup>1*</sup>"
   url: "https://zhouzheyuan.github.io"
@@ -22,7 +23,7 @@ affiliations:
   - "<sup>3</sup> Tencent Inc."
   - "<sup>4</sup> Nanyang Technological University"
 paper: https://www.arxiv.org/pdf/2508.04002
-# code: https://github.com/zhouzheyuan/cad-judge
+code: https://github.com/zhouzheyuan/cad-judge
 ---
 
 <!-- Using HTML to center the abstract -->
@@ -49,6 +50,17 @@ Extensive experiments on challenging CAD datasets demonstrate that our method ac
 ![teaser](assets/projects/cad-judge/teaser.png)
 
 
+## Why Sketch-and-Extrude Helps
+![se](assets/projects/cad-judge/se.png)
+
+A CAD program in the sketch-and-extrude representation decomposes into a sequence of sketches, transforms, and extrusion operations.
+This structure is what makes both **CJM** (Compiler-as-a-Judge Module) and **CRM** (Compiler-as-a-Review Module) practical:
+
+- Each step exposes **local validity checks** to the compiler — if a sketch is not closed or an extrusion is invalid, we obtain a meaningful error signal directly from the compiler.
+- The geometry can be compared **after execution**, not only at the token level, enabling a verifiable reward grounded in geometry rather than VLM proxies.
+- This decomposition turns the generation problem into a sequence of locally verifiable steps, which is exactly what enables compiler-verifiable grading at training time and lightweight agentic repair at test time.
+
+
 ## Overview of Framework
 ![framework](assets/projects/cad-judge/framework.png)
 
@@ -59,13 +71,10 @@ Extensive experiments on challenging CAD datasets demonstrate that our method ac
 
 ## Citation
 ```
-@misc{cad-judge,
-      title={CAD-Judge: Toward Efficient Morphological Grading and Verification for Text-to-CAD Generation}, 
-      author={Zheyuan Zhou and Jiayi Han and Liang Du and Naiyu Fang and Lemiao Qiu and Shuyou Zhang},
-      year={2025},
-      eprint={2508.04002},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2508.04002}, 
+@inproceedings{zhou2026cadjudge,
+  title={CAD-Judge: Toward Efficient Morphological Grading and Verification for Text-to-CAD Generation},
+  author={Zhou, Zheyuan and Han, Jiayi and Du, Liang and Fang, Naiyu and Qiu, Lemiao and Zhang, Shuyou},
+  booktitle={IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)},
+  year={2026}
 }
 ```

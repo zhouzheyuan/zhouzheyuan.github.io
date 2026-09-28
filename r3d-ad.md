@@ -2,6 +2,7 @@
 layout: project
 
 title: "R3D-AD: Reconstruction via Diffusion for 3D Anomaly Detection"
+subtitle: "ECCV 2024"
 authors:
 - name: "Zheyuan Zhou<sup>*</sup>"
   url: "https://zhouzheyuan.github.io"

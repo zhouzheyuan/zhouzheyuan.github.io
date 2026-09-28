@@ -36,6 +36,6 @@
 
 {%- endfor -%}
 
-{%- if has_eq_contrib == true -%}
+{%- if has_eq_contrib == true and include.hide_eq_contrib != true -%}
 <mark>(* <i> equal contribution</i>)</mark>
 {%- endif -%}

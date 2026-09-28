@@ -1,7 +1,7 @@
 ---
 title:          Learning Ego 3D Representation as Ray Tracing
 date:           2022-07-04 00:01:00 +0800
-selected:       true
+selected:       false
 pub:            "European Conference on Computer Vision (ECCV)"
 pub_date:       "2022"
 cover:          assets/images/covers/ego3rt.png
