@@ -6,9 +6,9 @@ pub:            "Conference on Neural Information Processing Systems (NeurIPS)"
 pub_date:       "2026"
 cover:          assets/images/covers/3a-vla.png
 authors:
-  - Zheyuan Zhou
-  - Liang Du
-  - Zixun Sun
+  - Zheyuan Zhou*
+  - Liang Du*
+  - Zixun Sun*
   - Xiaoyu Zhou
   - Ruimin Ye
   - Qihao Chen
