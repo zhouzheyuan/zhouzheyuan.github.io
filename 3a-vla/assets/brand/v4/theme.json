@@ -1,0 +1,27 @@
+{
+  "name": "3A-VLA / Spectral",
+  "version": 4,
+  "colors": {
+    "paper": "#F4F6FF",
+    "ink": "#151B3D",
+    "accent": "#3157FF",
+    "secondary": "#8747F4",
+    "muted": "#637093",
+    "line": "#DCE3F6",
+    "mist": "#EAEFFF",
+    "white": "#FFFFFF",
+    "layer_top": "#38BDF8",
+    "layer_middle": "#4263FF",
+    "layer_bottom": "#8747F4",
+    "signal": "#38BDF8"
+  },
+  "typography": {
+    "family": "Oxanium",
+    "body_family": "DM Sans",
+    "font_asset": "assets/fonts/Oxanium.ttf",
+    "heading_weight": 600,
+    "body_weight": 400
+  },
+  "mark": "A sharp three-layer A, with ice-blue, cobalt and electric-violet signal bands.",
+  "application": "Cool-white surfaces, blue-violet light, precise angular framing, real gameplay imagery."
+}

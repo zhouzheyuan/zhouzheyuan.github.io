@@ -8,7 +8,7 @@ cover:          assets/images/covers/3a-vla.png
 authors:
   - Zheyuan Zhou*
   - Liang Du*
-  - Zixun Sun*
+  - Zixun Sun†
   - Xiaoyu Zhou
   - Ruimin Ye
   - Qihao Chen
@@ -16,7 +16,8 @@ authors:
   - Lemiao Qiu
 links:
   Paper: https://arxiv.org/pdf/2602.02212
-  Code: https://github.com/3a-vla/3a-vla
-  Website: https://3a-vla.github.io/
-  Data: https://huggingface.co/datasets/3a-vla/gp
+  Code: https://github.com/zhouzheyuan/3a-vla
+  Website: https://zhouzheyuan.github.io/3a-vla/
+  Model: https://huggingface.co/AceAction/3A-VLA_Qwen3.5-4B_GameForPeace
+  Data: https://huggingface.co/datasets/AceAction/AceAction-5M_GameForPeace
 ---

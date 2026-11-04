@@ -1,11 +1,12 @@
 ---
+permalink: /cad-judge/
 layout: project
 
 title: "CAD-Judge: Toward Efficient Morphological Grading and Verification for Text-to-CAD Generation"
 subtitle: "ICASSP 2026 Oral"
 authors:
 - name: "Zheyuan Zhou<sup>1*</sup>"
-  url: "https://zhouzheyuan.github.io"
+  url: "https://zhouzheyuan.github.io/"
 - name: "Jiayi Han<sup>2*</sup>"
   url: "https://www.researchgate.net/profile/Han-Jiayi-2"
 - name: "Liang Du<sup>3</sup>"
@@ -47,11 +48,11 @@ Extensive experiments on challenging CAD datasets demonstrate that our method ac
 <!-- > Note: This is an example of a Jekyll-based project website template: [Github link](https://github.com/shunzh/project_website). -->
 
 ## Preference Data Construction
-![teaser](assets/projects/cad-judge/teaser.png)
+![teaser]({{ '/assets/projects/cad-judge/teaser.png' | relative_url }})
 
 
 ## Why Sketch-and-Extrude Helps
-![se](assets/projects/cad-judge/se.png)
+![se]({{ '/assets/projects/cad-judge/se.png' | relative_url }})
 
 A CAD program in the sketch-and-extrude representation decomposes into a sequence of sketches, transforms, and extrusion operations.
 This structure is what makes both **CJM** (Compiler-as-a-Judge Module) and **CRM** (Compiler-as-a-Review Module) practical:
@@ -62,11 +63,11 @@ This structure is what makes both **CJM** (Compiler-as-a-Judge Module) and **CRM
 
 
 ## Overview of Framework
-![framework](assets/projects/cad-judge/framework.png)
+![framework]({{ '/assets/projects/cad-judge/framework.png' | relative_url }})
 
 
 ## Visualization
-![vis](assets/projects/cad-judge/vis.png)
+![vis]({{ '/assets/projects/cad-judge/vis.png' | relative_url }})
 
 
 ## Citation

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "parachuting",
+    "label": "Parachuting",
+    "description": "Guide the descent to a landing location.",
+    "stream": "assets/gp-tasks-v21/parachuting/index.m3u8",
+    "poster": "assets/gp-tasks-v21/parachuting/poster.jpg",
+    "width": 956,
+    "height": 538,
+    "duration": 50.083333,
+    "player_names_blurred": true,
+    "player_code_blurred": true
+  },
+  {
+    "id": "scavenging",
+    "label": "Scavenging",
+    "description": "Search the buildings and gather resources.",
+    "stream": "assets/gp-tasks-v21/scavenging/index.m3u8",
+    "poster": "assets/gp-tasks-v21/scavenging/poster.jpg",
+    "width": 960,
+    "height": 540,
+    "duration": 26.533333,
+    "player_names_blurred": true,
+    "player_code_blurred": true
+  },
+  {
+    "id": "combat",
+    "label": "Combat",
+    "description": "Locate and engage the nearby opponent.",
+    "stream": "assets/gp-tasks-v21/combat/index.m3u8",
+    "poster": "assets/gp-tasks-v21/combat/poster.jpg",
+    "width": 958,
+    "height": 538,
+    "duration": 9.45,
+    "player_names_blurred": true,
+    "player_code_blurred": true
+  },
+  {
+    "id": "revival",
+    "label": "Revival",
+    "description": "Approach and revive a downed teammate.",
+    "stream": "assets/gp-tasks-v21/revival/index.m3u8",
+    "poster": "assets/gp-tasks-v21/revival/poster.jpg",
+    "width": 568,
+    "height": 320,
+    "duration": 11.533333,
+    "player_names_blurred": true,
+    "player_code_blurred": true
+  },
+  {
+    "id": "vehicle",
+    "label": "Vehicle",
+    "description": "Reach the vehicle and enter it.",
+    "stream": "assets/gp-tasks-v21/vehicle/index.m3u8",
+    "poster": "assets/gp-tasks-v21/vehicle/poster.jpg",
+    "width": 1544,
+    "height": 884,
+    "duration": 7.883333,
+    "player_names_blurred": true,
+    "player_code_blurred": true
+  },
+  {
+    "id": "rotation",
+    "label": "Rotation",
+    "description": "Move across the terrain toward safety.",
+    "stream": "assets/gp-tasks-v21/rotation/index.m3u8",
+    "poster": "assets/gp-tasks-v21/rotation/poster.jpg",
+    "width": 1202,
+    "height": 676,
+    "duration": 15.233333,
+    "player_names_blurred": true,
+    "player_code_blurred": true
+  }
+]

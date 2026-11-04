@@ -1,13 +1,6 @@
-$(function () {
-    $('.lazy').Lazy({
-        scrollDirection: 'vertical',
-        effect: 'fadeIn',
-        effectTime: 300,
-        visibleOnly: true,
-        placeholder: "",
-        onError: function(element) {
-            console.log('[lazyload] Error loading ' + element.data('src'));
-        }
-    })
-    $('[data-toggle="tooltip"]').tooltip()
-})
+// Publication covers use native image loading.
+(function () {
+  if (window.jQuery && window.jQuery.fn.tooltip) {
+    window.jQuery(function () { window.jQuery('[data-toggle="tooltip"]').tooltip(); });
+  }
+})();

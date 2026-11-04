@@ -1,0 +1,320 @@
+[
+  {
+    "id": "ia",
+    "table": "ablation",
+    "number": "3 · IA",
+    "title": "How should intent be represented?",
+    "zh": "IA：意图应该如何表达？",
+    "rows": [
+      0,
+      2,
+      3
+    ],
+    "label_index": 0,
+    "cols": [
+      2,
+      3
+    ],
+    "headers": [
+      "IA target",
+      "MC steps ↓",
+      "MC SR (%) ↑"
+    ],
+    "caption": "IA alternatives, with ESA absent.",
+    "zh_caption": "不使用 ESA，对比不同意图抽象目标。",
+    "preferred": [
+      3
+    ],
+    "display_rows": [
+      [
+        "None (baseline)",
+        "332",
+        "24.6"
+      ],
+      [
+        "Full CoT",
+        "310",
+        "28.3"
+      ],
+      [
+        "Keywords",
+        "298",
+        "30.2"
+      ]
+    ]
+  },
+  {
+    "id": "esa",
+    "table": "ablation",
+    "number": "3 · ESA",
+    "title": "What should the scene target contain?",
+    "zh": "ESA：场景目标应该包含什么？",
+    "rows": [
+      0,
+      4,
+      5,
+      6,
+      7
+    ],
+    "label_index": 1,
+    "cols": [
+      2,
+      3
+    ],
+    "headers": [
+      "ESA target",
+      "MC steps ↓",
+      "MC SR (%) ↑"
+    ],
+    "caption": "ESA alternatives, with IA absent.",
+    "zh_caption": "不使用 IA，对比不同环境语义目标。",
+    "preferred": [
+      7
+    ],
+    "display_rows": [
+      [
+        "None (baseline)",
+        "332",
+        "24.6"
+      ],
+      [
+        "Img. Caption",
+        "320",
+        "27.0"
+      ],
+      [
+        "Img. Pred.",
+        "322",
+        "26.8"
+      ],
+      [
+        "Full Sem.",
+        "318",
+        "27.4"
+      ],
+      [
+        "Latent",
+        "304",
+        "30.6"
+      ]
+    ]
+  },
+  {
+    "id": "combined",
+    "table": "ablation",
+    "number": "3 · COMBINATION",
+    "title": "Bring the abstractions together",
+    "zh": "组合：将两类抽象结合起来",
+    "rows": [
+      0,
+      1,
+      8,
+      9
+    ],
+    "label_index": null,
+    "cols": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "headers": [
+      "Variant",
+      "IA target",
+      "ESA target",
+      "MC steps ↓",
+      "MC SR (%) ↑"
+    ],
+    "caption": "Dense targets, sparse targets, and the complete model.",
+    "zh_caption": "对比密集目标、稀疏目标及完整模型。",
+    "preferred": [
+      9
+    ],
+    "display_rows": [
+      [
+        "Baseline",
+        "-",
+        "-",
+        "332",
+        "24.6"
+      ],
+      [
+        "Baseline",
+        "Full CoT",
+        "Img. Caption",
+        "309",
+        "32.3"
+      ],
+      [
+        "Ours (w/o AAR)",
+        "Keywords",
+        "Latent",
+        "297",
+        "36.5"
+      ],
+      [
+        "Ours",
+        "Keywords",
+        "Latent",
+        "285",
+        "40.4"
+      ]
+    ]
+  },
+  {
+    "id": "weighting",
+    "table": "aar",
+    "number": "4 · WEIGHTING",
+    "title": "Learned or fixed action weights?",
+    "zh": "AAR：学习权重还是固定权重？",
+    "rows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      10
+    ],
+    "label_index": null,
+    "cols": [
+      0,
+      1
+    ],
+    "headers": [
+      "Weighting scheme",
+      "MC steps ↓",
+      "MC SR (%) ↑"
+    ],
+    "caption": "Compare fixed weights, scalar relations and AAR.",
+    "zh_caption": "比较固定权重、标量关系及学习式 AAR。",
+    "preferred": [
+      10
+    ],
+    "display_rows": [
+      [
+        "Ours (w/o AAR)",
+        "297",
+        "36.5"
+      ],
+      [
+        "Fixed w=0.33",
+        "303",
+        "36.9"
+      ],
+      [
+        "Fixed w=0.67",
+        "302",
+        "37.0"
+      ],
+      [
+        "Scalar cosine",
+        "299",
+        "37.1"
+      ],
+      [
+        "Scalar Hadamard",
+        "295",
+        "37.6"
+      ],
+      [
+        "AAR (Ours)",
+        "285",
+        "40.4"
+      ]
+    ]
+  },
+  {
+    "id": "dense",
+    "table": "aar",
+    "number": "4 · DENSE TARGETS",
+    "title": "Does reweighting help dense targets?",
+    "zh": "AAR：对密集目标是否同样有效？",
+    "rows": [
+      5,
+      6,
+      7
+    ],
+    "label_index": null,
+    "cols": [
+      0,
+      1
+    ],
+    "headers": [
+      "Dense-target configuration",
+      "MC steps ↓",
+      "MC SR (%) ↑"
+    ],
+    "caption": "The same CoT + caption targets with three weighting settings.",
+    "zh_caption": "对相同 CoT + Caption 目标使用三种权重设置。",
+    "preferred": [
+      7
+    ],
+    "display_rows": [
+      [
+        "CoT+Cap. w/o AAR",
+        "309",
+        "32.3"
+      ],
+      [
+        "CoT+Cap. w/ VLM-Score",
+        "307",
+        "32.8"
+      ],
+      [
+        "CoT+Cap. w/ AAR",
+        "301",
+        "36.0"
+      ]
+    ]
+  },
+  {
+    "id": "components",
+    "table": "aar",
+    "number": "4 · COMPONENTS",
+    "title": "Which parts of AAR matter?",
+    "zh": "AAR：哪些组件发挥作用？",
+    "rows": [
+      0,
+      8,
+      9,
+      10
+    ],
+    "label_index": null,
+    "cols": [
+      0,
+      1
+    ],
+    "headers": [
+      "AAR configuration",
+      "MC steps ↓",
+      "MC SR (%) ↑"
+    ],
+    "caption": "Remove AAR, entropy regularization or stop-gradient.",
+    "zh_caption": "分别移除 AAR、熵正则化或停止梯度。",
+    "preferred": [
+      10
+    ],
+    "display_rows": [
+      [
+        "Ours (w/o AAR)",
+        "297",
+        "36.5"
+      ],
+      [
+        "AAR w/o H̄",
+        "291",
+        "38.2"
+      ],
+      [
+        "AAR w/o stop-gradient",
+        "289",
+        "37.6"
+      ],
+      [
+        "AAR (Ours)",
+        "285",
+        "40.4"
+      ]
+    ]
+  }
+]

@@ -20,5 +20,6 @@ authors:
 links:
   Paper: https://arxiv.org/abs/2407.10862
   Code: https://github.com/zhouzheyuan/r3d-ad
-  Website: https://zhouzheyuan.github.io/r3d-ad
+  Website: https://zhouzheyuan.github.io/r3d-ad/
+
 ---

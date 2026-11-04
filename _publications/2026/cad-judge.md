@@ -20,5 +20,6 @@ authors:
 links:
   Paper: https://arxiv.org/abs/2508.04002
   Code: https://github.com/zhouzheyuan/cad-judge
-  Website: https://zhouzheyuan.github.io/cad-judge
+  Website: https://zhouzheyuan.github.io/cad-judge/
+
 ---

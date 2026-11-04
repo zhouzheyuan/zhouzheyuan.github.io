@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" data-theme="light">
 
 <head>
   <meta charset="utf-8">
@@ -9,39 +9,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }}</title>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.24/dist/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css" />
-  <link rel="stylesheet" href="./assets/css/project.css">
-
-  
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.24/dist/js/bulma-carousel.min.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/js/all.min.js"></script>
-  <script defer src="./assets/js/project.js"></script>
-
-  <!-- MathJax -->
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
-        displayMath: [ ['$$', '$$'], ['\\[', '\\]'] ],
-        processEscapes: true, 
-        tags: 'all',
-      },
-      svg: {
-        fontCache: 'global'
-      }
-    };
-  </script>
-  <script
-    type="text/javascript" id="MathJax-script" async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-  </script>
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/vendor/bulma/bulma.min.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/vendor/fontawesome/css/all.min.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/project.css' | relative_url }}">
+  <script defer src="{{ '/assets/js/project.js' | relative_url }}"></script>
 </head>
 
 
 <body>
+<nav class="project-nav" aria-label="Site navigation"><a href="{{ '/' | relative_url }}">Zheyuan Zhou</a><a href="{{ '/publications/' | relative_url }}">All publications</a></nav>
 
 <section class="hero teaser">
   <div class="hero-body">

@@ -1,0 +1,45 @@
+{
+  "archive": "3A_VLA_NIPS26_Camera_Ready.zip",
+  "figures": [
+    {
+      "figure": "teaser",
+      "source": "figures/teaser.pdf",
+      "sha256": "1ff4dc7a2c61130c0e10240cf7084553e614ac444892442286378c57aac4a265"
+    },
+    {
+      "figure": "framework",
+      "source": "figures/framework.pdf",
+      "sha256": "00affc2f0f282de561b72d9cce3a69174bc5ba45e71db26078b0f4a3496fbc1e"
+    },
+    {
+      "figure": "attention",
+      "source": "figures/attention.pdf",
+      "sha256": "15b230a1e8802a90ff1e5d6f7e799a4b3bb5c9b14bb138839579d14a3a885f5b"
+    },
+    {
+      "figure": "prune",
+      "source": "figures/prune.pdf",
+      "sha256": "736985a417e9eb92d4ee8b71fb223e24ba00a8ed58d440efb914579f1b52f57a"
+    },
+    {
+      "figure": "entropy",
+      "source": "figures/entropy.pdf",
+      "sha256": "b32496b70dff97791efcc5ad02e71f9fdeb81964d57b52953551ee2d161c6753"
+    },
+    {
+      "figure": "aar",
+      "source": "figures/aar.pdf",
+      "sha256": "021d393b873de10ecda11322c11ea46965bb801223598594736256948a7db6dd"
+    },
+    {
+      "figure": "aar_h",
+      "source": "figures/aar_h.pdf",
+      "sha256": "d82a347d642d57d1f6f5857e9937585eed0444b3179d50e660118ee09be13bf0"
+    },
+    {
+      "figure": "aar_fix",
+      "source": "figures/aar_fix.pdf",
+      "sha256": "d459154ede7a4278af332e616f3a2dc493b59829bb11e981ad92540c177923ab"
+    }
+  ]
+}

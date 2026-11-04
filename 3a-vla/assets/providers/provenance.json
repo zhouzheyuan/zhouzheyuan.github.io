@@ -1,0 +1,26 @@
+[
+  {
+    "id": "openai",
+    "source": "https://github.com/openai.png?size=128",
+    "treatment": "Original organization avatar; used only next to the corresponding model name in comparison tables.",
+    "sha256": "cca01ac2fd2971f80b7a8b062d0bc9851bb246788810dfbac0c578aefc309f81"
+  },
+  {
+    "id": "anthropic",
+    "source": "https://github.com/anthropics.png?size=128",
+    "treatment": "Original organization avatar; used only next to the corresponding model name in comparison tables.",
+    "sha256": "61b8055b0a4cab382869b05149244d0ca322815bb4f5b0ca00b1779b19cbbfcc"
+  },
+  {
+    "id": "google",
+    "source": "https://www.gstatic.com/images/branding/googleg/1x/googleg_standard_color_128dp.png",
+    "treatment": "Original organization avatar; used only next to the corresponding model name in comparison tables.",
+    "sha256": "5b95eed86b7603081f22edd5da01de4c028b118b20885793b9b3ad5f6cbe1e71"
+  },
+  {
+    "id": "qwen",
+    "source": "https://github.com/QwenLM.png?size=128",
+    "treatment": "Original organization avatar; used only next to the corresponding model name in comparison tables.",
+    "sha256": "d8e0992853d84e424aa4e0479633b91767cc9d8e9666e790fe6cbc421a2316ae"
+  }
+]

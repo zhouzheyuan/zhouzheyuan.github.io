@@ -1,58 +1,47 @@
-$(document).ready(function() {
-  // Initialize the carousel
-  var options = {
-    slidesToScroll: 1,
-    slidesToShow: 1,
-    loop: true,
-    infinite: true,
-    autoplay: false, // Set to false if you want to control the play manually
-    autoplaySpeed: 3000,
-  };
-
-  // Initialize all div with carousel class
-  var carousels = bulmaCarousel.attach('.carousel', options);
-
-  // Loop on each carousel initialized
-for (var i = 0; i < carousels.length; i++) {
-  // Add listener to after:show event
-  carousels[i].on('after:show', function(state) {
-    // Reset and play the videos in the current slide after the carousel has finished switching
-    resetAndPlayVideos(this, state.currentSlide);
-  });
-
-  // Initialize canplay listeners for each video
-  initializeCanPlayListeners($(carousels[i]).find('.item').find('video'));
-}
-
-// Reset and play the videos in the current slide
-function resetAndPlayVideos(carouselInstance, slide) {
-  $(slide).find('video').each(function() {
-    var videoElement = this;
-
-    // Check if the video is ready to be played
-    if (videoElement.readyState >= 4) { // 4 is the HAVE_ENOUGH_DATA state
-      videoElement.currentTime = 0;
-      videoElement.play().catch(function(error) {
-        console.error('Error playing video:', error);
+// Progressive enhancement: all comparisons remain visible without JavaScript.
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.results-carousel').forEach(carousel => {
+    const slides = Array.from(carousel.children).filter(child => child.classList.contains('item'));
+    if (slides.length < 2) return;
+    const controls = document.createElement('div');
+    controls.className = 'project-carousel-controls';
+    const previous = document.createElement('button');
+    previous.type = 'button'; previous.textContent = '← Previous';
+    const next = document.createElement('button');
+    next.type = 'button'; next.textContent = 'Next →';
+    const status = document.createElement('span');
+    status.setAttribute('aria-live', 'polite');
+    controls.append(previous, status, next); carousel.after(controls);
+    carousel.setAttribute('aria-label', '3D anomaly comparison videos');
+    carousel.tabIndex = 0;
+    let current = 0;
+    let visible = false;
+    const playActive = () => slides.forEach((slide, index) => {
+      slide.querySelectorAll('video').forEach(video => {
+        if (index === current && visible) {
+          video.preload = 'metadata';
+          video.play().catch(() => {});
+        } else video.pause();
       });
-    } else {
-      // If not ready, we rely on the canplay event listener
+    });
+    function show(index) {
+      current = (index + slides.length) % slides.length;
+      slides.forEach((slide, i) => { slide.hidden = i !== current; });
+      const label = slides[current].className.match(/item-([\w-]+)/)?.[1] || 'Comparison';
+      status.textContent = label.charAt(0).toUpperCase() + label.slice(1) + ' · ' + (current + 1) + ' / ' + slides.length;
+      playActive();
     }
+    previous.addEventListener('click', () => show(current - 1));
+    next.addEventListener('click', () => show(current + 1));
+    carousel.addEventListener('keydown', event => {
+      if (event.target !== carousel) return;
+      if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+        event.preventDefault(); show(current + (event.key === 'ArrowLeft' ? -1 : 1));
+      }
+    });
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(entries => { visible = entries[0].isIntersecting; playActive(); }, {threshold:0.1}).observe(carousel);
+    } else visible = true;
+    show(0);
   });
-}
-
-// Initialize canplay listeners for all videos
-function initializeCanPlayListeners(videos) {
-  videos.each(function() {
-    var videoElement = this;
-    // Listen for the canplay event to ensure the video is ready before playing
-    videoElement.addEventListener('canplay', function() {
-      videoElement.currentTime = 0;
-      videoElement.play().catch(function(error) {
-        console.error('Error playing video:', error);
-      });
-    }, { once: true });
-  });
-}
-
 });

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="3A-VLA">
+<rect width="512" height="512" rx="88" fill="#F8F7FC"/><g transform="translate(55.4 134.03) scale(.85)"><defs>
+<linearGradient id="icon-pale" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D2B8FF"/><stop offset="1" stop-color="#C2A3F5"/></linearGradient>
+<linearGradient id="icon-middle" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#AC83FA"/><stop offset="1" stop-color="#9B6BF4"/></linearGradient>
+<linearGradient id="icon-front" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7537F8"/><stop offset="1" stop-color="#642AEC"/></linearGradient>
+<clipPath id="icon-hole"><path d="M291 78 240 185H342Z"/></clipPath>
+</defs><path fill="url(#icon-pale)" d="M163 0H214L57 287H0Z M282 236H324L349 287H307Z"/>
+<path fill="url(#icon-middle)" d="M214 0H265L115 287H57Z M324 236H366L390 287H349Z"/>
+<g clip-path="url(#icon-hole)"><path fill="url(#icon-middle)" d="M291 78 342 185H300L262 116Z"/><path fill="url(#icon-pale)" d="M242 116H262L300 185H272Z"/></g>
+<path fill="url(#icon-front)" fill-rule="evenodd" d="M265 0H320L472 287H390L366 236H222L194 287H115Z M291 78 240 185H342Z"/></g>
+</svg>

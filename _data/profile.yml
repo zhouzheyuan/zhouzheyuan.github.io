@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Zheyuan Zhou"
 
 positions:
-  - '<span class="no-break"><img src="assets/images/badges/ZJU.png" alt="Zhejiang University" class="inline-badge"/></span> Ph.D. student, Zhejiang University'
+  - '<span class="no-break"><img src="/assets/images/badges/ZJU.png" alt="Zhejiang University" class="inline-badge"/></span> Ph.D. student, Zhejiang University'
 
 email: "zheyuanzhou@zju.edu.cn"
 gscholar: YEF1g3AAAAAJ

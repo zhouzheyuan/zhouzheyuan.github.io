@@ -1,11 +1,12 @@
 ---
+permalink: /r3d-ad/
 layout: project
 
 title: "R3D-AD: Reconstruction via Diffusion for 3D Anomaly Detection"
 subtitle: "ECCV 2024"
 authors:
 - name: "Zheyuan Zhou<sup>*</sup>"
-  url: "https://zhouzheyuan.github.io"
+  url: "https://zhouzheyuan.github.io/"
 - name: "Le Wang<sup>*</sup>"
   url: "https://scholar.google.com/citations?hl=zh-CN&user=ZZ0iGAUAAAAJ"
 - name: "Naiyu Fang"
@@ -31,13 +32,13 @@ code: https://github.com/zhouzheyuan/r3d-ad
         <div class="item item-starfish">
           <div class="columns is-multiline">
             <div class="column is-half">
-              <video poster="" id="starfish_defect" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
-                <source src="assets/projects/r3d-ad/starfish_defect.mp4" type="video/mp4">
+              <video poster="" id="starfish_defect" controls muted loop playsinline preload="none" height="100%" style="width: 100%;">
+                <source src="{{ '/assets/projects/r3d-ad/starfish_defect.mp4' | relative_url }}" type="video/mp4">
               </video>
             </div>
             <div class="column is-half">
-              <video poster="" id="starfish_gt" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
-                <source src="assets/projects/r3d-ad/starfish_gt.mp4" type="video/mp4">
+              <video poster="" id="starfish_gt" controls muted loop playsinline preload="none" height="100%" style="width: 100%;">
+                <source src="{{ '/assets/projects/r3d-ad/starfish_gt.mp4' | relative_url }}" type="video/mp4">
               </video>
             </div>
           </div>
@@ -46,13 +47,13 @@ code: https://github.com/zhouzheyuan/r3d-ad
         <div class="item item-seahorse">
           <div class="columns is-multiline">
             <div class="column is-half">
-              <video poster="" id="seahorse_defect" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
-                <source src="assets/projects/r3d-ad/seahorse_defect.mp4" type="video/mp4">
+              <video poster="" id="seahorse_defect" controls muted loop playsinline preload="none" height="100%" style="width: 100%;">
+                <source src="{{ '/assets/projects/r3d-ad/seahorse_defect.mp4' | relative_url }}" type="video/mp4">
               </video>
             </div>
             <div class="column is-half">
-              <video poster="" id="seahorse_gt" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
-                <source src="assets/projects/r3d-ad/seahorse_gt.mp4" type="video/mp4">
+              <video poster="" id="seahorse_gt" controls muted loop playsinline preload="none" height="100%" style="width: 100%;">
+                <source src="{{ '/assets/projects/r3d-ad/seahorse_gt.mp4' | relative_url }}" type="video/mp4">
               </video>
             </div>
           </div>
@@ -61,13 +62,13 @@ code: https://github.com/zhouzheyuan/r3d-ad
         <div class="item item-bag">
           <div class="columns is-multiline">
             <div class="column is-half">
-              <video poster="" id="bag_defect" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
-                <source src="assets/projects/r3d-ad/bag_defect.mp4" type="video/mp4">
+              <video poster="" id="bag_defect" controls muted loop playsinline preload="none" height="100%" style="width: 100%;">
+                <source src="{{ '/assets/projects/r3d-ad/bag_defect.mp4' | relative_url }}" type="video/mp4">
               </video>
             </div>
             <div class="column is-half">
-              <video poster="" id="bag_gt" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
-                <source src="assets/projects/r3d-ad/bag_gt.mp4" type="video/mp4">
+              <video poster="" id="bag_gt" controls muted loop playsinline preload="none" height="100%" style="width: 100%;">
+                <source src="{{ '/assets/projects/r3d-ad/bag_gt.mp4' | relative_url }}" type="video/mp4">
               </video>
             </div>
           </div>
@@ -76,13 +77,13 @@ code: https://github.com/zhouzheyuan/r3d-ad
         <div class="item item-vase">
           <div class="columns is-multiline">
             <div class="column is-half">
-              <video poster="" id="vase_defect" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
-                <source src="assets/projects/r3d-ad/vase_defect.mp4" type="video/mp4">
+              <video poster="" id="vase_defect" controls muted loop playsinline preload="none" height="100%" style="width: 100%;">
+                <source src="{{ '/assets/projects/r3d-ad/vase_defect.mp4' | relative_url }}" type="video/mp4">
               </video>
             </div>
             <div class="column is-half">
-              <video poster="" id="vase_gt" autoplay controls muted loop playsinline height="100%" style="width: 100%;">
-                <source src="assets/projects/r3d-ad/vase_gt.mp4" type="video/mp4">
+              <video poster="" id="vase_gt" controls muted loop playsinline preload="none" height="100%" style="width: 100%;">
+                <source src="{{ '/assets/projects/r3d-ad/vase_gt.mp4' | relative_url }}" type="video/mp4">
               </video>
             </div>
           </div>
@@ -120,12 +121,12 @@ Extensive experiments show that our R3D-AD outperforms previous state-of-the-art
 <!-- > Note: This is an example of a Jekyll-based project website template: [Github link](https://github.com/shunzh/project_website). -->
 
 ## Model Overview
-![archi](assets/images/covers/r3d-ad.png)
+![archi]({{ '/assets/images/covers/r3d-ad.png' | relative_url }})
 
 The overall architecture of **R3D-AD** for shape reconstruction and anomaly detection of point cloud objects.
 
 ## 3D Anomaly Simulation
-![patch](assets/projects/r3d-ad/patch.png)
+![patch]({{ '/assets/projects/r3d-ad/patch.png' | relative_url }})
 
 Illustration of **Patch-Gen**, the 3D anomaly simulation strategy. 
 The input normal point cloud is first randomly rotated. 
@@ -133,7 +134,7 @@ On the surface of the normalized cube, we randomly select viewpoints to find the
 The selected points are then transformed into irregular defects according to the specific deformation solution.
 
 ## Efficiency
-![cost](assets/projects/r3d-ad/cost.png)
+![cost]({{ '/assets/projects/r3d-ad/cost.png' | relative_url }})
 
 Memory and time cost during inference on the Real3D-AD dataset. 
 (a) Memory usage comparison between different models. 
@@ -141,7 +142,7 @@ Memory and time cost during inference on the Real3D-AD dataset.
 Our R3D-AD outperforms all previous methods in both accuracy and efficiency by a significant margin.
 
 ## Visualization
-![vis](assets/projects/r3d-ad/vis.jpg)
+![vis]({{ '/assets/projects/r3d-ad/vis.jpg' | relative_url }})
 
 ## Citation
 ```

@@ -1,0 +1,9 @@
+/* Presentation v11: vector approved wide logo and English co-brand. */
+@font-face{font-family:'DM Sans';src:url('assets/fonts/DM-Sans-400.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Oxanium';src:url('assets/fonts/Oxanium-600.ttf') format('truetype');font-weight:500 800;font-style:normal;font-display:swap}
+:root{--bg:#F8F7FC;--ink:#080D29;--muted:#6A6582;--line:#E4DCF5;--accent:#6E32F0;--tint:#F0EAFE;--sans:'DM Sans',Arial,'PingFang SC',sans-serif;--display:'Oxanium',Arial,'PingFang SC',sans-serif}
+.site-header{background:#F8F7FCf5}
+
+.authors a { color:inherit; text-decoration:none; white-space:nowrap; }
+.authors a:hover { text-decoration:underline; text-underline-offset:3px; }
+.authors a:focus-visible { outline:2px solid currentColor; outline-offset:4px; }
